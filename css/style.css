@@ -13,9 +13,21 @@
   padding-right: 5%;
 }
 
+#projects {
+  background-color: #979C9C;
+}
+
+#mapDiv {
+  background-color: #979C9C;
+}
+
+#skills {
+  display: block;
+}
+
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #962D3E;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +35,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #F2EBC7;
   line-height: 29px;
   padding: 10px;
 }
@@ -31,8 +43,10 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  color: #ffffff;
   line-height: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h4 {
@@ -42,7 +56,7 @@ h4 {
   line-height: 17px;
 }
 
-h2, h3, h4, h5 {
+h2, h4, h5 {
   padding:10px;
   padding-left: 5%;
   padding-right: 5%;
@@ -68,7 +82,7 @@ h2, h3, h4, h5 {
 
 p {
   font-size: 14px;
-  color: #333333;
+  color: #ffffff;
   line-height: 21px;
 }
 
@@ -82,41 +96,41 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #348899;
   line-height: 28px;
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #962D3E;
   display: none;
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #962D3E;
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #962D3E;
 }
 
 .white-text {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #348899;
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: #343642;
   padding-bottom: 10px;
   clear:both;
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
+  background-color: #F2EBC7;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #F2EBC7;
 }
 
 .flex-box {
