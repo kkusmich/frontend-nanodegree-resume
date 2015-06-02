@@ -1,49 +1,62 @@
-* {
+body {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .clearfix {
   overflow: auto;
 }
 
-.education-entry, .work-entry, .project-entry {
+.education-entry {
   padding-left: 5%;
   padding-right: 5%;
 }
 
-#projects {
-  background-color: #979C9C;
+.work-entry {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-#mapDiv {
-  background-color: #979C9C;
+.project-entry {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-#skills {
+.light {
+  background-color: #979c9c;
+}
+
+.flex-box-skills {
   display: block;
 }
 
+html {
+  font-size: 14px;
+}
+
 h1 {
-  font-size: 40px;
-  color: #962D3E;
+  font-size: 3rem;
+  color: #962d3e;
   line-height: 48px;
   display: inline;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 24px;
-  color: #F2EBC7;
+  font-size: 2rem;
+  color: #F2ebc7;
   line-height: 29px;
   padding: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0;
 }
 
 h3 {
   font-style: italic;
-  font-size: 20px;
-  color: #ffffff;
+  font-size: 1.5rem;
+  color: #fff;
   line-height: 22px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -51,12 +64,15 @@ h3 {
 
 h4 {
   font-weight: bold;
-  font-size: 14px;
-  color: #4A4A4A;
+  font-size: 1rem;
+  color: #4a4a4a;
   line-height: 17px;
+  padding:10px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-h2, h4, h5 {
+h5 {
   padding:10px;
   padding-left: 5%;
   padding-right: 5%;
@@ -65,29 +81,29 @@ h2, h4, h5 {
 
 .date-text {
   font-style: italic;
-  font-size: 14px;
-  color: #999999;
+  font-size: 1rem;
+  color: #999;
   line-height: 16px;
   float: left;
 }
 
 .location-text {
   font-style: italic;
-  font-size: 14px;
-  color: #999999;
+  font-size: 1rem;
+  color: #999;
   line-height: 16px;
   float: right;
 
 }
 
 p {
-  font-size: 14px;
-  color: #ffffff;
+  font-size: 1rem;
+  color: #fff;
   line-height: 21px;
 }
 
 a {
-  color: #1199C3;
+  color: #1199c3;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -95,22 +111,22 @@ a {
 
 .welcome-message {
   font-style: italic;
-  font-size: 18px;
+  font-size: 1.5rem;
   color: #348899;
   line-height: 28px;
 }
 
-#skillsH3 {
-  color: #962D3E;
+.skills-item {
+  color: #962d3e;
   display: none;
 }
 
 .orange {
-  background-color: #962D3E;
+  background-color: #962d3e;
 }
 
 .orange-text {
-  color: #962D3E;
+  color: #962d3e;
 }
 
 .white-text {
@@ -125,12 +141,13 @@ a {
 }
 
 .dark-gray {
-  background-color: #F2EBC7;
+  background-color: #F2ebc7;
+  text-align: center;
 }
 
 /* TODO: Replace with image later */
-#header {
-  background-color: #F2EBC7;
+.center-content {
+  background-color: #F2ebc7;
 }
 
 .flex-box {
@@ -167,7 +184,7 @@ img {
 /* Bar chart stuff */
 .chart div {
   font: 10px sans-serif;
-  background-color: #4A4A4A;
+  background-color: #4a4a4a;
   text-align: right;
   padding: 3px;
   margin: 1px;
@@ -180,12 +197,8 @@ span {
   padding: 5px;
 }
 
-#letsConnect {
-  text-align: center;
-}
-
 @media only screen and (max-width: 1024px) {
-  #letsConnect {
+  .dark-gray {
     margin-top: 5%;
   }
 }
@@ -197,7 +210,7 @@ span {
 }
 
 @media only screen and (max-width: 750px) {
-  #letsConnect {
+  .dark-gray {
     margin-top: 10%;
   }
   .biopic {
@@ -208,21 +221,21 @@ span {
   }
 }
 
-#map {
+.map-item {
   display: block;
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;
 }
 
-#mapDiv {
+.map {
   height: 400px;
   width: 100%;
   padding-bottom: 5%;
 }
 
 @media only screen and (min-width: 750px) {
-  #skillsH3,
+  .skills-item,
   .biopic {
     display: block;
   }
